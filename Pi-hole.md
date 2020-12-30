@@ -60,17 +60,17 @@ _Note: Consider creating a job to perform Pi-hole updates automatically via the 
 ## Configuring the Pi-hole
 11. Login to the administrator web GUI via the following URL:
 ```
-http://**<Pi-hole Static IP>**/admin/index.php?login
+http://<Pi-hole Static IP>/admin/index.php?login
 ```
 Replace <Pi-hole Static IP> with the IP of your Pi-hole
 12. Navigate to the Adlists section of the Pi-hole (Group Management > Adlists):
 ```
-http://**<Pi-hole Static IP>**/admin/groups-adlists.php
+http://<Pi-hole Static IP>/admin/groups-adlists.php
 ```
 13. Add curated domain blacklists to the adlist - see https://firebog.net/ for suggestions
 14. Update Adlists (Tools > Update Gravity):
 ```
-http://**<Pi-hole Static IP>**/admin/gravity.php
+http://<Pi-hole Static IP>/admin/gravity.php
 ```
 _Note: Consider creating a job to perform Adlist updates automatically via the command: pihole updateGravity_
 
